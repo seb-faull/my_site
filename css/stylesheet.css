@@ -1,0 +1,251 @@
+.bg_image {
+	background-image: url(../img/norway.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    padding: 0px;
+    height: 700px;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#nav {
+	display: inline-block;
+    float: top;
+    background-color: rgba(202, 48, 48, 0.71);
+    word-spacing: 120px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#name {
+	float: left;
+	text-align: left;
+}
+
+#footer {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    background-color: rgba(202, 48, 48, 0.71);
+}
+
+#header1 {
+    /*border: solid black 1px;*/
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: -22px;
+    color: #440715;
+}
+
+#about-me-div {
+    margin: 0 auto;
+    margin-top: 3px;
+    text-align: center;
+    font-family: arial;
+    font-size: 17px;
+    background-color: rgba(197, 228, 215, 0.17);
+}
+
+#portfolio-div {
+    margin: 0 auto;
+    margin-top: 18px;
+    text-align: center;
+    font-family: arial;
+    font-size: 17px;
+}
+
+#skills-div {
+    margin: 0 auto;
+    margin-top: 18px;
+    text-align: center;
+    font-family: arial;
+    font-size: 17px;
+    background-color: rgba(197, 228, 215, 0.17);
+}
+
+#experience-div {
+    margin: 0 auto;
+    margin-top: 18px;
+    text-align: center;
+    font-family: arial;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+#about-me {
+	color: #1aa283;
+}
+
+#portfolio {
+	color: #1aa283;
+}
+
+#skills {
+	color: #1aa283;
+}
+
+#experience {
+	color: #1aa283;
+}
+
+#profile-image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 88px;
+}
+
+#download {
+	margin-bottom: 10px;
+}
+
+li {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	margin: 0px;
+}
+
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/*body{
+	font-size: 18px;	
+	color:#fff;
+  padding: 0;
+  margin: 1em auto;
+	position: relative;
+  -webkit-animation: background 60s infinite linear alternate;
+  background-image: -webkit-linear-gradient(-45deg, #9DB556, #81A15B);
+  height: 100%;
+  width: 100%;
+	font-weight:400;		
+	font-family: 'Lato', sans-serif; 
+}*/
+
+
+.team-specialization {
+  background: #fff;
+  position: relative;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
+  padding: 70px 80px 50px;
+  margin: 50px 250px;
+  font-weight:400;
+  font-size: 17px;	
+	font-family: 'Lato', sans-serif;
+}
+.team-specialization:after {
+  bottom: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: rgba(255,255,255,0);
+  border-bottom-color: #fff;
+  border-width: 30px;
+  left: 50%;
+  margin-left: -30px;
+}
+.team-specialization .progress {
+  height: 45px;
+}
+.team-specialization .progress .bar {
+  text-align: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.team-specialization .progress .bar span.skill {
+  padding: 0.1em 12px;
+  display: inline-block;
+  margin: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: rgba(0,0,0,0.2);
+}
+.team-specialization .progress.html .bar {
+  background: #de6e6e;
+}
+.team-specialization .progress.css .bar {
+  background: #e5ac3f;
+}
+.team-specialization .progress.php .bar {
+  background: #85b24b;
+}
+.team-specialization .progress.java .bar {
+  background: #5ebecf;
+}
+
+
+
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animated.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
